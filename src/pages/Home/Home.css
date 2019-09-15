@@ -1,0 +1,45 @@
+.banner-section {
+  background: url("../../assets/images/banner.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(110vh - 127px);
+}
+.custom-btn {
+  background: #f96332 !important;
+  border: none !important;
+}
+.custom-btn.round {
+  border-radius: 50px;
+}
+.banner-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.banner-content h1,
+.banner-content h3 {
+  color: #fff;
+}
+.banner-content h1 {
+  font-weight: 300;
+}
+.banner-content h3 {
+  font-size: 20px;
+  padding: 15px 0;
+}
+.input-rounded {
+  border-radius: 0 30px 30px 0px !important;
+}
+.banner-content .custom-btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+.banner-content span.input-group-text {
+  border-radius: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .banner-content img {
+    width: 200px;
+  }
+}

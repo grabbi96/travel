@@ -1,0 +1,88 @@
+.message-left{
+    width: 25%;
+    height: 80vh;
+}
+.message-users {
+    display: flex;
+    align-items: center;
+}
+.message-user-info {
+    margin-left: 15px;
+}
+.message-user-info h6{
+    margin: 0;
+}
+.message-main-area {
+    /* height: 80vh; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.message-main-area .list-group {
+    height: calc(80vh - 90px);
+    overflow-y: scroll;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.message-middle {
+    width: 50%;
+}
+.message-left-header {
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0 30px;
+}
+.message-chat-header .message-users{
+    justify-content: center;
+}
+.message-middle {
+    width: 50%;
+    border: 1px solid #ddd;
+}
+.message-chat-header {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+.message-item-thumb img {
+    width: 50px;
+}
+li.friend-message {
+    display: flex;
+    flex-wrap: wrap;
+}
+.message-item-content {
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.message-item-content p {
+    margin: 0;
+}
+.message-item-content span {
+    font-weight: 700;
+    color: #999;
+}
+li.self-message {
+    display: flex;
+    flex-direction: row-reverse;
+}
+ul.message-lists li{
+    margin: 10px 0;
+}
+.message-chat-form-area {
+    border-top: 1px solid #ddd;
+}
+.message-chat-form-area input{
+    padding: 2rem .75rem;
+}
+.message-chat-form-area .form-group{
+    margin: 0;
+}
+.message-chat-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 89%;
+}
+.message-right {
+    width: 25%;
+    border: 1px solid #dddd;
+}

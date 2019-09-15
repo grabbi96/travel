@@ -1,0 +1,36 @@
+.contribution-view-banner{
+    padding: 100px 0;
+    background: url("../../assets/images/sajek-banner.jpg") no-repeat center center/cover;
+}
+.crbt-view-banner-content{
+    color: #ffffff;
+}
+.crbt-view-banner-content h1{
+    color: #F96332;
+}
+.crbt-images-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.crbt-images-area a{
+    width: 20%;
+    margin: 5px;
+    height: 150px;
+} 
+.page-link-item {
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+    color: #F96332;
+    padding: 4rem 2rem;
+}
+@media only screen and (max-width: 768px) {
+    .crbt-images-area img {
+      width: 30%;
+      height: 100px;
+  }}
+@media only screen and (max-width: 480px) {
+    .page-link-item {
+        margin: 25px 0;
+    }
+  }

@@ -1,0 +1,19 @@
+.event-add-fieldset{}
+.event-add-fieldset .form-control{
+    padding-left:40px; 
+}
+.event-add-fieldset .icon-children{
+    top: 72%;
+    left: 10px;
+}
+.event-add-fieldset input[type="file"]{
+    font-size: 10px;
+    padding-top:8px; 
+}
+.event-add-fieldset textarea.form-control{
+    padding-left:10px; 
+}
+.event-add-fieldset button {
+    padding: 9px 20px;
+    border-radius: 4px;
+}

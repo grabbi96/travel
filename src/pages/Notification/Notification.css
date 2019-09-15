@@ -1,0 +1,84 @@
+ .notification-section li.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.notification-item {
+    display: flex;
+}
+.ntft-user {
+    margin: 0 20px;
+}
+.ntft-user h6{
+    margin: 0;
+}
+
+.ui-block-title {
+    padding: 23px 25px 18px;
+    line-height: 1;
+    border-bottom: 1px solid #e6ecf5;
+    border-top: 1px solid #e6ecf5;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+.notification-list li {
+    padding: 25px;
+    border-bottom: 1px solid #e6ecf5;
+    display: flex;
+    position: relative;
+    transition: all .3s ease;
+    justify-content: space-between;
+    align-items: center;
+}
+.notification-list .author-thumb {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.notification-list li:hover .more{
+    opacity: 1;
+}
+.notification-list .more {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 14px;
+    color: #d6d9e6;
+    opacity: 0;
+}
+.notification-list .more svg{
+    margin-left: 5px;
+}
+span.notification-icon {
+    color: #d6d9e6;
+}
+.notification-event {
+    display: flex;
+    flex-wrap: wrap;
+}
+.notification-list-item-left {
+    display: flex;
+    align-items: center;
+}
+span.notification-date {
+    width: 100%;
+}
+a.h6.notification-friend {
+    font-size: .875rem;
+    margin: 0 !important;
+}
+a.notification-link {
+    color: #f96332;
+}
+.notification-list .notification-date {
+    font-size: 11px;
+    display: block;
+    margin-top: 5px;
+}
+.notification-event p {
+    margin: 0;
+    font-size: .800rem;
+}

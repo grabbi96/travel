@@ -1,0 +1,40 @@
+.r-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.r-item-thumb {
+    width: 50%;
+}
+.r-item-thumb img{
+    height: 173px;
+}
+.r-item-content {
+    padding-left: 10px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.r-item-content h5 {
+    font-size: 14px;
+    margin: 0;
+}
+.r-item-content span {
+    color: #999;
+    font-size: 12px;
+}
+.r-item-content ul {
+    list-style: inherit;
+    margin-left: 15px;
+}
+.r-item-content ul li {
+    font-size: 14px;
+    color: #666;
+}
+.r-item a.custom-btn.btn {
+    padding: 10px 26px;
+    font-size: 11px;
+}

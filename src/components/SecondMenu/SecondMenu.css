@@ -1,0 +1,15 @@
+.second-menu {
+    background-color: #212121;
+    padding: 20px 0;
+}
+.second-menu .nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: yellow;
+    text-transform: uppercase;
+    padding: .5rem .375rem;
+}
+.second-menu ul.navbar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
